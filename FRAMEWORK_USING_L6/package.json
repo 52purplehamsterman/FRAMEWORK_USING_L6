@@ -1,0 +1,12 @@
+{
+    "name": "food-delivery-api",
+    "version": "1.0.0",
+    "description": "RESTful API for food delivery",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }

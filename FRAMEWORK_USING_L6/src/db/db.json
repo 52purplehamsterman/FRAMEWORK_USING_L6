@@ -1,0 +1,33 @@
+{
+    "food": [
+      {
+        "id": 1,
+        "name": "Пицца Пепперони",
+        "price": 500,
+        "isAvailable": true,
+        "createdAt": "2023-10-01T12:00:00Z",
+        "ingredients": ["тесто", "томатный соус", "сыр", "пепперони"]
+      },
+      {
+        "id": 2,
+        "name": "Суши Филадельфия",
+        "price": 400,
+        "isAvailable": false,
+        "createdAt": "2023-10-02T15:30:00Z",
+        "ingredients": ["рис", "лосось", "авокадо", "водоросли"]
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customerId": 101,
+        "items": [
+          { "foodId": 1, "quantity": 2 },
+          { "foodId": 2, "quantity": 1 }
+        ],
+        "totalPrice": 1400,
+        "status": "новый",
+        "createdAt": "2023-10-03T10:00:00Z"
+      }
+    ]
+  }
